@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(7, 7, 7);
+    /* color: antiquewhite;  */
+  }
+  #signup-page{
+    color: white;
+   
+  }
+  #signup-form{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+   
+    
+  }
+  input{
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    /* margin-left: 20px; */
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+  }
+  button{
+    margin-top: 30px;
+    font-size:20px ;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: none;
+  }
+  button:hover{
+    color: white;
+    background-color: rgb(93, 92, 92);
+  }
+  
+
+   #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  } 
+  
+  #signup-page, #profile-page {
+    display: none;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  
